@@ -1,0 +1,42 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Archivos de entorno virtual
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de configuración
+*.DS_Store
+*.vscode/
+*.idea/
+
+# Archivos de datos grandes
+data/raw/*
+data/processed/*
+
+# Modelos entrenados
+project/ejemplo_ml/models/*
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos de salida de FastAPI/Uvicorn
+*.db
+*.sqlite3
+
+# Entornos de Conda
+*.conda
+*.lock
+*.yml.lock

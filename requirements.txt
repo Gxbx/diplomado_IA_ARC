@@ -1,0 +1,27 @@
+# Librerías básicas de análisis y manipulación de datos
+numpy
+pandas
+
+# Visualización
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+
+# Procesamiento de lenguaje natural
+nltk
+spacy
+scipy
+
+# Modelos más avanzados de NLP y embeddings
+transformers
+sentence-transformers
+
+# APIs y despliegue
+fastapi
+uvicorn
+
+# Soporte adicional
+jupyter
+notebook
