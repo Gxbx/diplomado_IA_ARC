@@ -1,0 +1,26 @@
+{
+  "model_path": "project\\ml-api\\models\\titanic_clf.joblib",
+  "source": "seaborn",
+  "features_num": [
+    "age",
+    "sibsp",
+    "parch",
+    "fare",
+    "familysize"
+  ],
+  "features_cat": [
+    "sex",
+    "embarked",
+    "embark_town",
+    "pclass",
+    "alone"
+  ],
+  "target": "survived",
+  "framework": "sklearn",
+  "version": "1.0.0",
+  "metrics_test": {
+    "accuracy": 0.8156424581005587,
+    "f1": 0.7401574803149606,
+    "auc": 0.8499341238471674
+  }
+}
